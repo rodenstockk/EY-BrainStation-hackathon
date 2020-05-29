@@ -1,0 +1,38 @@
+@import '../../style/reset';
+@import '../../style/fonts';
+
+
+.clean {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    h3 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-family: 'AvenirNextLTPro-Bold';
+    }
+    p {
+        font-size: 18px;
+        font-family: 'AvenirNextLTPro-Regular';
+        width: 910px;
+        line-height: 30px;
+    }
+}
+
+.cleanBox {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    img {
+        height: 520px;
+        width: 240px;
+        margin-right: 101px;   
+    }
+}
+
+#last {
+    margin-right: 0px;        
+}

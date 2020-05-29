@@ -1,0 +1,59 @@
+@import '../../style/reset';
+@import '../../style/fonts';
+
+h3 {
+    font-size: 24px;
+    font-family: 'AvenirNextLTPro-Bold';
+}
+
+p {
+    font-size: 18px;
+    font-family: 'AvenirNextLTPro-Regular';
+}
+
+.vMenu {
+    &__ctn{
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+    &__desc{
+        text-align: center;
+        height: 150px;
+        margin-bottom: 6rem;
+    }
+    &__header{
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 2rem;
+        padding: 0 70px 0 70px;
+    }
+    &__points-row {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding-bottom: 35px;
+        width: 50%;
+    }
+    &__bullets {
+        width: 15px;
+        height: 15px;
+        background-color: #F6B42A;
+        border-radius: 50%;
+        margin-right: .5rem;
+    }
+    &__points {
+        font-size: 18px;
+        width: 100%;
+        line-height: 1.5rem;
+        text-align: start;
+    }
+}
+
+
+
+
+
+

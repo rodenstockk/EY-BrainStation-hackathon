@@ -1,0 +1,33 @@
+@import '../../style/reset';
+@import '../../style/fonts';
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color:#f6b42a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    h4 {
+        font-family: 'AvenirNextLTPro-Demi';
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.footerBox {
+    width: 200px;
+    text-align: start;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    img {
+        height: 40px;
+        width: 40px;
+    }
+}

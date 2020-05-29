@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    font: inherit;
+    vertical-align: baseline;
+    // font-family: 'Source Sans Pro', sans-serif;
+    color: #323232;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
+
+ol, ul, li {
+    list-style: none;
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto";
+}

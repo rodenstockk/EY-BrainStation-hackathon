@@ -1,0 +1,36 @@
+@import '../../style/reset';
+@import '../../style/fonts';
+
+
+.feedback {
+    background-color: #fef9ee;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    h3 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-family: 'AvenirNextLTPro-Bold';
+    }
+    p {
+        font-size: 18px;
+        font-family: 'AvenirNextLTPro-Regular';
+        width: 910px;
+        line-height: 30px;
+    }
+}
+
+
+.feedbackbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.feedbackP {
+    display: flex;
+    flex-direction: column;
+}
